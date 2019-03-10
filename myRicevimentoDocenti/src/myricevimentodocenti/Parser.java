@@ -89,6 +89,7 @@ public class Parser {
                         
                     }
                     Docenti docente = new Docenti(id, nome, giorno_ricevimento, ora, nota);
+                    GestioneDocenti.inserisciCsv(docente);
                     docenti.add(docente);
                 }
             }

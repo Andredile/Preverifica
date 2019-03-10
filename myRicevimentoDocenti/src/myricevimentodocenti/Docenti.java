@@ -6,7 +6,7 @@ package myricevimentodocenti;
  */
 
 public class Docenti {
-     String nome,ora,giorno_ricevimento,note;
+    String nome,ora,giorno_ricevimento,note;
     int id;
 
     public Docenti(int id, String nome, String giorno_ricevimento, String ora, String note) {
