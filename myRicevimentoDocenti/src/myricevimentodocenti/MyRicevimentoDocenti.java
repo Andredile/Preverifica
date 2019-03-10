@@ -42,7 +42,10 @@ public class MyRicevimentoDocenti {
                         System.out.println(d.getNome());
                     break;
                 case 2:
-                   
+                    System.out.println("inserisci il nome del prof");
+                    String prof = input.readLine();
+                    giorno = dom.ricerca(prof);
+                    System.out.println(prof + " riceve il " + giorno);
                     break;
                
                 case 0:

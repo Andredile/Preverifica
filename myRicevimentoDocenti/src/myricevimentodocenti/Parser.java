@@ -94,6 +94,16 @@ public class Parser {
             }
         }
     }
+     
+      public String ricerca(String nome)
+            throws ParserConfigurationException, SAXException, IOException{
+        valorizzaLista();
+        for(Docenti d : docenti){
+            if(d.nome.equals(nome))
+                return d.giorno_ricevimento;
+        }
+        return "errore";
+    }
     
     
 }
